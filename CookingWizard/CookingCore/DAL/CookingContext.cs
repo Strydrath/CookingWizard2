@@ -11,7 +11,7 @@ namespace CookingCore.DAL
 {
     public class CookingContext : DbContext
     {
-        private static string config = "Data Source=tcp:cooking-server.database.windows.net,1433;Initial Catalog=CookingWizard;User Id=cooking_admin@cooking-server;Password=Uptown!wizard12";
+        private static string config = "XXX";
         public CookingContext() :base(config)
         {
             Configuration.ProxyCreationEnabled = true;
